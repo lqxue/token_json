@@ -6,7 +6,7 @@
       "title": "毕业证书",
       "id": "001",
       "background": "1",
-      "desc": "学生$name年齢$age学校$school",
+      "desc": "        学生 $name ，身份证 $id ，性别 $gender ，于$startTime到$endTime在$school学校$level年制$major专业学习。现已修完教学计划规定的全部课程，成绩合格，获得毕业证书。\n\n证书编号：$serialNumber。",
       "keys": {
         "name": {
           "type": "input",
@@ -14,16 +14,46 @@
           "desc": "姓名",
           "value": ""
         },
-        "age": {
+        "id": {
           "type": "input",
           "frame": "位置大小",
-          "desc": "年齡",
+          "desc": "身份证号",
           "value": ""
         },
-        "school": {
+        "gender": {
           "type": "input",
           "frame": "位置大小",
-          "desc": "学校",
+          "desc": "性别",
+          "value": ""
+        },
+        "startTime": {
+          "type": "input",
+          "frame": "位置大小",
+          "desc": "升大学时间",
+          "value": ""
+        },
+        "endTime": {
+          "type": "input",
+          "frame": "位置大小",
+          "desc": "毕业时间",
+          "value": ""
+        },
+        "level": {
+          "type": "input",
+          "frame": "位置大小",
+          "desc": "年制",
+          "value": ""
+        },
+        "major": {
+          "type": "input",
+          "frame": "位置大小",
+          "desc": "专业",
+          "value": ""
+        },
+        "serialNumber": {
+          "type": "input",
+          "frame": "位置大小",
+          "desc": "证书编号",
           "value": ""
         }
       }
