@@ -3,10 +3,10 @@
   "id": 1,
   "result": [
     {
-      "title": "毕业证书",
+      "title": "身份证",
       "id": "001",
       "background": "1",
-      "desc": "学生$name年齢$age学校$school",
+      "desc": "姓名:$name \n性别:$gender \n民族$nation \n身份证号码$id \n户籍所在地$nativePlace \n现居住地址$currentPlace \n有效期限$startTime至$endTime",
       "keys": {
         "name": {
           "type": "input",
@@ -14,36 +14,34 @@
           "desc": "姓名",
           "value": ""
         },
-        "age": {
+        "gender": {
           "type": "input",
           "frame": "位置大小",
-          "desc": "年齡",
+          "desc": "性别",
           "value": ""
         },
-        "school": {
+        "nation": {
           "type": "input",
           "frame": "位置大小",
-          "desc": "学校",
-          "value": ""
-        }
-      }
-    },
-    {
-      "title": "荣誉证书",
-      "id": "002",
-      "background": "2",
-      "desc": "$name同志：\n        在$year年度工作中，勤奋努力，专业技能或业务水平优秀，荣获公司优秀员工。\n        特发此证，以兹鼓励！\n        有效期自$startTime至$endTime",
-      "keys": {
-        "name": {
-          "type": "input",
-          "frame": "位置大小",
-          "desc": "姓名",
+          "desc": "民族",
           "value": ""
         },
-        "year": {
+        "id": {
           "type": "input",
           "frame": "位置大小",
-          "desc": "年份",
+          "desc": "身份证号码",
+          "value": ""
+        },
+        "nativePlace": {
+          "type": "input",
+          "frame": "位置大小",
+          "desc": "户籍所在地",
+          "value": ""
+        },
+        "currentPlace": {
+          "type": "input",
+          "frame": "位置大小",
+          "desc": "现居住地址",
           "value": ""
         },
         "startTime": {
